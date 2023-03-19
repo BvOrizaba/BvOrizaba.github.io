@@ -1,0 +1,213 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-size: cover;
+  background-position: center;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
+  padding: 50px 20px;
+}
+
+/* Menu Styles */
+.menu {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.menu a {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+  
+}
+
+.menu a:hover {
+  color: #1E90FF;
+  text-align: center;
+}
+
+/* Main Heading Style */
+main h1 {
+  font-size: 2rem;
+  margin-bottom: 50px;
+  color: #ffffff;
+  text-align: center;
+
+}
+
+/* Projects Section Styles */
+.projects {
+    display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 40px;
+}
+
+.project-card {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.project-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    transition: all 0.2s ease-in-out;
+}
+
+.project-card:hover img {
+    transform: scale(1.2);
+}
+
+.project-description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #FFF;
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+.project-card:hover .project-description{
+  bottom: 6px;
+  opacity: 1;
+}
+
+.project-description h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.project-description h3:hover {
+  transform: scale(1.1);
+  color: rgb(255, 255, 255);
+}
+
+.project-description p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  line-height: 1.5;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.project-description p:hover {
+  transform: scale(1.1);
+  color: rgb(250, 245, 245);
+}
+
+/* Contact Section Styles */
+.contact {
+    background-color: #25415e;
+    color: rgb(249, 246, 246);
+    padding: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+.social-icons {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.fa-facebook {
+    color: rgb(250, 250, 250);
+    font-size: 2rem;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.fa-facebook:hover {
+    transform: scale(1.2);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.link:hover {
+  transform: scale(1.2);
+
+}
+.link {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin-left: -40%;
+  margin-bottom: -1%;
+  padding: 20px;
+  color: #FFF;
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+  text-align: center;
+  text-decoration: none;
+}
+
+.link1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin-left: 40%;
+  margin-bottom: -1%;
+  padding: 20px;
+  color: #FFF;
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+  text-align: center;
+  text-decoration: none;
+}
+
+.link1:hover {
+  transform: scale(1.2);
+}
+
+.contacto {
+  position: relative;
+  color: #FFF;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.AboutMeText {
+  position: relative;
+  color: #FFF;
+  text-align: center;
+  margin-top: -50px;
+  margin-bottom: 40px;
+}
