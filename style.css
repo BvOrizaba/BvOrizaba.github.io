@@ -21,7 +21,7 @@ body {
 /* Menu Styles */
 .menu {
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
   align-items: center;
   margin-bottom: 50px;
 }
@@ -38,7 +38,7 @@ body {
 }
 
 .menu a:hover {
-  color: #1E90FF;
+  color: #fafafa;
   text-align: center;
 }
 
