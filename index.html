@@ -10,72 +10,90 @@
     }
   </style>
 <body>
-    <header>
-
-        <h1 style="font-size: 50px; margin-top: 10PX; margin-bottom: 20px; text-align: center; color: white;"  id = "Titulo_Proyectos"> BRAYAN ORIZABA AGUILAR</h1>
-        <nav class="menu">
-            <a href="#Titulo_AboutME" > About Me</a>
-            <a href="#Titulo_Project" > Projects </a>
-            <a href="#Titulo_Contacto" > Contact</a>
-        </nav>
-    </header>
+    <header style="text-align: center;">
+        <a href="#" class="neon-btn">BRAYAN ORIZABA AGUILAR</a>
+      </header>
+      
+      
 
 
-    
+    <nav class="menu">
+        <a href="#Titulo_AboutME" > About Me</a>
+        <a href="#Titulo_Project" > Projects </a>
+        <a href="#Titulo_Contacto" > Contact</a>
+    </nav>
+
+
     <main class="wrapper">
         <h1 style="font-size: 30px;"  id = "Titulo_AboutME"> About Me</h1>
         <div class="AboutMeText">
-            <p style="color: white; text-align: justify; "> Hi there! Let me tell you a bit about myself. I'm a Mexican engineer specialized in Mechatronics, currently studying a Master's degree in Data Science. One of my biggest passions is uncovering insights through data analysis to help solve problems and create meaningful solutions. When I'm not working on projects or analyzing data, I enjoy watching movies and playing sports (particularly soccer). At 24 years old, I am excited to continue growing both personally and professionally. Drop me a line and let's chat! Remember:</p>
+            <img src="https://lh3.googleusercontent.com/GAat_HRqj6LqdTASFIzyPJkSlh7SCt-Ylkxf9fO_yKqby9dL0zCrX2y_DEY8icQO7LBPg6vK6Yu2igtQf-wNXDS_H2jgzgqvW3CGhrDBSrtL83vxlrcdaZGZhLUtDn9roxwcOVw68sqWJi5hWPZY_hilAh1yJwAmkrD1QLFMI6mcfVq4jHwBuCHgh7UxF6ICFy5eo6HvMK4GImaF7biQ1hrzaiUnFzfQ4EJ2hsrTORXExip3mjjvf67nkDISodLw1kX-vW6ET01oyAmrPqgDgrvUok9LrtLUMkDpfLL7Lu6QLEkeCYhLISXgCZArrTH6dtmVUXd_ro5LkkiEEK0GoIWIqyWvin8rGDS2pKi6qPOH0_6EJW5ysK1Xq45Hr3fFN7oa6HR7FKL947XvKrPa2Sk15a_5w1vr-9EHkIW3X327aA_F58UsdX_qYmJP7SspFDXV9MWSP_MnpBwxTVdzqYPYbbT8LwMaEoUF8l1rYFk2KA0ddZzTbyVqrpyEQoO8o6i-ekXADsD64i4Wq8LZH_HYdGUzMXgeMuGSJnjhJzgjIS2hq3Zz3of8IprepuxoZZFeeMge0DmPxQfqH3_qyBPovazUdvgtKDggrj7aCp2LzI5UCjuG47sSaJKUPoux1VHRkOJHFZfZIdYH175123X2WWx-vJgGNW-89-e9jcPfb3RYqr6vnEhI2nlTMt0Akbm786_GWOm3bYN0CZ7CSntpf1UTxldyqo_PJtmz0p8ZoIAmIedPxDajKn9QLsI3FxroKv6WCf-0BTiThXo8GiKeMlrKwPFS1MHu31cUg7Qe1bYe2yNABWXgdShdJW3TbwvRJNUPwTNUJ1Ibc0qE253q1CraBZNFcL-cHsaO38i8z2ISR21JRzR0ivQWeBJkeKnnqA-JmhGwPW2W89kALyilo4utfBMdp3YZllJh5bhxx71Z=w934-h880-s-no?authuser=0" style= "width:500px; display:block; margin:auto;">
+            <p style="color: white; text-align: justify; "> Hi there! Let me tell you a bit about myself. I'm a Mexican engineer specialized in Mechatronics, currently studying for a Master's degree in Data Science. One of my biggest passions is uncovering insights through data analysis to help solve problems and create meaningful solutions. When I'm not working on projects or analyzing data, I enjoy watching movies - it's one of my favorite things to do. Meeting new people is also a huge passion of mine. I think it's so interesting to hear different perspectives and learn about other cultures. And don't even get me started on traveling - I'm always down for an adventure! There's just something so exciting about exploring new places and trying new things. At 24 years old, I am excited to continue growing both personally and professionally. Drop me a line and let's chat! Remember:</p>
             <p style="color: white; margin-bottom: 100PX; "><br><em>"The only way to do great work is to love what you do."</em> - Steve Jobs. </p>
-            </div>
         </div>
 
 
         <h1 style="font-size: 30px; margin-bottom: 20PX;" id = "Titulo_Project"> Projects </h1>
+
+        <div class="project-card">
+            <img src="https://images.ecestaticos.com/0HwzzZCyvCLVq4NTJjGOWX5C_bg=/28x121:2271x1390/1200x675/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F000%2F7a9%2F9be%2F0007a99be8c5283e3edc30a082c22774.jpg" alt="Proyecto 2">
+            <div class="project-description">
+                <h3 style="pointer-events: none">Where will Nextflix's next movie be released?</h3>
+                <p style="color: white; font-size: 0.9rem; text-align: justify; margin-bottom: 2em; margin-right: 3em; pointer-events: none;">Load, clean, transform and analyze the dataset provided by Netflix to extract the main features 
+                    and generate models that predict in which country the film will be broadcasted. Three models were created, the first GradientBoostingRegressor, GridSearch and the pipeline. <br> <br>Worked with python [pandas, numpy, maplotlib,seaborn, sklearn and joblib. </p>
+                <a href="https://github.com/BvOrizaba/In-wich-country-will-Netflix-screen-the-film" class="link">Github</a>
+                <a href="https://powerbi.microsoft.com/es-mx/" class="link1">PowerBI</a>
+            </div>
+        </div>
+
+
         <section class="projectos">
             <div class="project-card">
                 <img src="https://st1.uvnimg.com/d4/4a/006304a74db4902c0b4d8d8026c8/chevrolet-corvette-c8-stingray-2020-1280-08.jpg" alt="Proyecto 1">
                 <div class="project-description">
-                    <h3>Venta de autos con python</h3>
+                    <h3 style="pointer-events: none">Coming soon</h3>
+                    <!--
+                    <p style="color: white; text-align: justify; margin-bottom: 44px; pointer-events: none;">hola en este procyeca asda asd sda dsasd </p>
                     <a href="https://github.com/BvOrizaba" class="link">Github</a>
                     <a href="https://powerbi.microsoft.com/es-mx/" class="link1">PowerBI</a>
-                    
+                    -->
                 </div>
             </div>
 
-            <div class="project-card">
-                <img src="https://images.ecestaticos.com/0HwzzZCyvCLVq4NTJjGOWX5C_bg=/28x121:2271x1390/1200x675/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F000%2F7a9%2F9be%2F0007a99be8c5283e3edc30a082c22774.jpg" alt="Proyecto 2">
-                <div class="project-description">
-                    <h3>In wich country will Netflix screen the film?</h3>
-                    <a href="https://github.com/BvOrizaba/In-wich-country-will-Netflix-screen-the-film" class="link">Github</a>
-                    <a href="https://powerbi.microsoft.com/es-mx/" class="link1">PowerBI</a>
-                </div>
-            </div>
-
-            <div class="project-card">
+            <div class="project-card" >
                 <img src="https://phantom-marca-us.unidadeditorial.es/5d2838a0005367f924a96c5bdd2eb48f/resize/1980/f/jpg/assets/multimedia/imagenes/2022/06/07/16545575201224.jpg" alt="Proyecto 3">
                 <div class="project-description">
-                    <h3>Mejor musica</h3>
+                    <h3 style="pointer-events: none">Coming soon</h3>
+                   <!--  
+                    <p style="color: white; text-align: justify; margin-bottom: 44px; pointer-events: none;">hola en este procyeca asda asd sda dsasd </p>
                     <a href="https://github.com/BvOrizaba" class="link">Github</a>
                     <a href="https://powerbi.microsoft.com/es-mx/" class="link1">PowerBI</a>
+                -->
                 </div>
+                 
               </div>
                 <div class="project-card">
                   <img src="https://www.eleconomista.com.mx/__export/1581119523386/sites/eleconomista/img/2020/02/07/que-son-esports.jpg_554688468.jpg" alt="Proyecto 4">
                   <div class="project-description">
-                      <h3>Mejores juegos</h3>
+                    <h3 style="pointer-events: none">Coming soon</h3>
+                  <!--
+                    <p style="color: white; text-align: justify; margin-bottom: 44px; pointer-events: none;">hola en este procyeca asda asd sda dsasd </p>
                       <a href="https://github.com/BvOrizaba" class="link">Github</a>
                       <a href="https://powerbi.microsoft.com/es-mx/" class="link1">PowerBI</a>
-                  </div>
+                 -->
+                    </div>
               </div>
             </div>
               <div class="project-card">
                   <img src="https://www.eltiempo.com/files/image_640_428/uploads/2020/12/09/5fd1466c9bad3.jpeg" alt="Proyecto 5">
                   <div class="project-description">
-                    <h3>Viajes espaciales</h3>
+                    <h3 style="pointer-events: none">Coming soon</h3>
+                    <!--
+                    <p style="color: white; text-align: justify; margin-bottom: 44px; pointer-events: none;">hola en este procyeca asda asd sda dsasd </p>
                     <a href="https://github.com/BvOrizaba" class="link">Github</a>
                     <a href="https://powerbi.microsoft.com/es-mx/" class="link1">PowerBI</a>
-                  </div>
+                    --> 
+                </div>
               </div>
             </div>
         </section>
@@ -124,8 +142,3 @@
     <script src="https://kit.fontawesome.com/cb6ed0c53e.js"></script>
 </body>
 </html>
-
-
-
-
-
