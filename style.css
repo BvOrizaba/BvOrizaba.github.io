@@ -126,11 +126,7 @@ main h1 {
     transition: all 0.2s ease-in-out;
 }
 
-.project-card:hover .project-description, 
-.project-card:hover p {
-  bottom: 6px;
-  opacity: 1;
-}
+.project-card:hover .project-description, .project-card:hover p {
   bottom: 6px;
   opacity: 1;
 }
@@ -143,6 +139,7 @@ main h1 {
 }
 
 .project-description h3:hover {
+  
   color: rgb(255, 255, 255);
 }
 
@@ -154,10 +151,6 @@ main h1 {
   transition: all 0.2s ease-in-out;
 }
 
-.project-description p:hover {
-  bottom: 6px;
-  color: rgb(250, 245, 245);
-}
 
 /* Contact Section Styles */
 .contact {
@@ -179,18 +172,18 @@ main h1 {
   margin-bottom: 25px;
 }
 
-}
+
+
 .container {
   display: flex;
   justify-content: center;
- 
+  
 }
 
 .link:hover {
   transform: scale(1.2);
   text-decoration:underline;
 }
-
 .link {
    position: absolute;
   bottom: 0;
