@@ -126,7 +126,7 @@ main h1 {
     transition: all 0.2s ease-in-out;
 }
 
-.project-card:hover .project-description p:hover{
+.project-card:hover .project-description{
   bottom: 6px;
   opacity: 1;
 }
@@ -143,6 +143,7 @@ main h1 {
 }
 
 .project-description p {
+  
   margin-bottom: 15px;
   line-height: 1.5;
   text-align: center;
