@@ -126,7 +126,7 @@ main h1 {
     transition: all 0.2s ease-in-out;
 }
 
-.project-card:hover .project-description, .project-card:hover p {
+.project-card:hover .project-description{
   bottom: 6px;
   opacity: 1;
 }
@@ -139,11 +139,12 @@ main h1 {
 }
 
 .project-description h3:hover {
-  
+  opacity: 1;
   color: rgb(255, 255, 255);
 }
 
 .project-description p {
+  opacity: 1;
   margin-bottom: 15px;
   line-height: 1.5;
   text-align: center;
@@ -185,11 +186,11 @@ main h1 {
   text-decoration:underline;
 }
 .link {
-   position: absolute;
+   position: relative;
   bottom: 0;
   left: 0;
   width: 100%;
-  margin-left: -40%;
+  margin-left: 10%;
   margin-bottom: -1%;
   padding: 20px;
   color: #FFF;
@@ -200,18 +201,19 @@ main h1 {
 }
 
 .link1 {
-  position: absolute;
+  position: relative;
   bottom: 0;
   left: 0;
   width: 100%;
-  margin-left: 27%;
+  margin-left: 50%;
   margin-bottom: -1%;
   padding: 20px;
   color: #FFF;
   opacity: 1;
   transition: all 0.2s ease-in-out;
-  text-align: center;
+  text-align: right;
   text-decoration: none;
+  
 }
 
 .link1:hover {
