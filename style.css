@@ -146,10 +146,12 @@ main h1 {
   margin-bottom: 15px;
   line-height: 1.5;
   text-align: center;
+  display: flex;
   transition: all 0.2s ease-in-out;
 }
 
 .project-description p:hover {
+  display: flex;
   color: rgb(250, 245, 245);
 }
 
