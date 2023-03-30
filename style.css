@@ -152,6 +152,10 @@ main h1 {
   transition: all 0.2s ease-in-out;
 }
 
+.project-description p:hover {
+transform: scale(1);
+text-decoration:underline;
+}
 
 /* Contact Section Styles */
 .contact {
