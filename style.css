@@ -143,7 +143,6 @@ main h1 {
 }
 
 .project-description p {
-  
   margin-bottom: 15px;
   line-height: 1.5;
   text-align: center;
@@ -152,7 +151,7 @@ main h1 {
 }
 
 .project-description p:hover {
-  display: flex;
+  bottom: 6px;
   color: rgb(250, 245, 245);
 }
 
@@ -176,29 +175,18 @@ main h1 {
   margin-bottom: 25px;
 }
 
-
-.fa-facebook {
-    color: rgb(250, 250, 250);
-    font-size: 2rem;
-    margin: 0 10px;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
 }
-
-.fa-facebook:hover {
-    transform: scale(1.2);
-}
-
 .container {
   display: flex;
   justify-content: center;
-  
+ 
 }
 
 .link:hover {
   transform: scale(1.2);
   text-decoration:underline;
 }
+
 .link {
    position: absolute;
   bottom: 0;
